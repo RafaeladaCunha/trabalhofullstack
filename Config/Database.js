@@ -16,8 +16,7 @@ const sequelize = new Sequelize('cadastropessoa', 'postgres', 'Renata', {
     host: 'localhost',
     dialect: 'postgres'
 });
-  
-  testConnection();
+
 
 module.exports = sequelize;
 
